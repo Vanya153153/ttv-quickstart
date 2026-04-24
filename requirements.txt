@@ -1,2 +1,4 @@
-requests
+httpx
+pytest
+pytest-mock
 
