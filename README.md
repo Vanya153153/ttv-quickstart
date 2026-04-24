@@ -1,5 +1,8 @@
-# ttv-quickstart
+# Text-to-Video Quickstart (httpx + env + ретраи)
 
-Партнёрский сервис генерации видео поверх API апихоста (провайдер-слой для Runway / Google Veo / Freepik Kling).
+Скрипт для тестирования API text-to-video с использованием `httpx`, переменных окружения, ретраев (только 5xx и сеть), собственных исключений и тестов.
 
-Архитектура: C-lite. Сервис ведёт Иван (Python / FastAPI, свой ЛК, свой биллинг). Апихост предоставляет HTTP-API /clone/{provider}/* как reseller-слой с двумя ключами (боевой + demo).
+## Установка
+
+```bash
+pip install -r requirements.txt
